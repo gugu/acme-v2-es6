@@ -1,12 +1,7 @@
-| Sponsored by [ppl](https://ppl.family)
-| **acme-v2.js** ([npm](https://www.npmjs.com/package/acme-v2))
-| [acme-v2-cli.js](https://git.coolaj86.com/coolaj86/acme-v2-cli.js)
-| [greenlock.js](https://git.coolaj86.com/coolaj86/greenlock.js)
-| [goldilocks.js](https://git.coolaj86.com/coolaj86/goldilocks.js)
-|
-
-acme-v2.js
+acme-v2-es6.js
 ==========
+
+This is a fork of excellend AJ ONeal's module acme-v2. The idea is to drop legacy node.js support to improve maintainablity
 
 A framework for building Let's Encrypt v2 (ACME draft 11) clients, successor to `le-acme-core.js`.
 Built [by request](https://git.coolaj86.com/coolaj86/greenlock.js/issues/5#issuecomment-8).
@@ -187,7 +182,7 @@ ACME.challengePrefixes['dns-01']              // '_acme-challenge'
 
 Changelog
 ---------
-
+* v1.0.6 - started to use latest node.js features, eslint support, add details for logging invalid state order
 * v1.0.5 - cleanup logging
 * v1.0.4 - v6- compat use `promisify` from node's util or bluebird
 * v1.0.3 - documentation cleanup
